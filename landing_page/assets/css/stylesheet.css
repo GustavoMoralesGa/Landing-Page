@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-image: url(https://findicons.com/files/icons/1278/quickpix_2006/128/invader_zim.png);
+  background-position: 99% 1%;
+  background-repeat: no-repeat;
+  background-color: rgb(109, 84, 128);
+  height: 135px;
+}
+.header-title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(7, 7, 74);
+}
+.header-title h1 {
+  margin: 0;
+}
+
+.main-content {
+  justify-content: center;
+}
+.content-item {
+  margin: 5% auto 5% auto;
+  display: flex;
+  width: 70%;
+}
+.item-image {
+  width: 20%;
+}
+.item-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto auto auto 12%;
+  width: 50%;
+}
+.footer {
+  height: 2em;
+  font-size: 1em;
+  display: flex;
+  align-content: center;
+  background-color: rgb(139, 56, 254);
+}
+.footer-text {
+  margin: auto;
+  color: rgb(82, 197, 112);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
